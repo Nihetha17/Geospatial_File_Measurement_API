@@ -1,0 +1,16 @@
+# Tested-against versions (Python 3.11 / 3.12). Pre-built Windows wheels exist for every package,
+# including GDAL (bundled inside pyogrio) and PROJ (bundled inside pyproj) - no manual GIS install needed.
+fastapi==0.115.6
+uvicorn==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.4
+
+numpy==2.1.3
+pandas==2.2.3
+shapely==2.0.6
+pyproj==3.7.0
+pyogrio==0.10.0
+geopandas==1.0.1
+
+pytest==8.3.4
+httpx==0.28.1

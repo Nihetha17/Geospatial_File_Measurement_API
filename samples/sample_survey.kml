@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample survey (Chennai area)</name>
+    <Placemark>
+      <name>Parcel A</name>
+      <description>Roughly 1.1 km x 1.1 km square plot</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              80.20,13.00,0 80.21,13.00,0 80.21,13.01,0 80.20,13.01,0 80.20,13.00,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Access road</name>
+      <description>North-south road, about 5.5 km</description>
+      <LineString>
+        <coordinates>80.19,13.00,0 80.19,13.05,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Survey marker</name>
+      <description>Point features are returned without a measurement</description>
+      <Point>
+        <coordinates>80.205,13.005,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
